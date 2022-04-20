@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+
+
+:root {
+    --main-title-font: 'Pacifico', cursive;
+    --title-font: 'Square Peg', cursive;
+    --color-0: #666DF2;
+    --color-1: #1D26F0;
+    --color-2: #171FBD;
+    --color-3: #2F3270;
+    --color-4: #0D1270;
+    --color-5: #c8cafa;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    line-height: 2em;
+}
+
+/* Configurações do header da página */
+
+header {
+    background-color: var(--color-4);
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+header > h1 {
+    font-size: 4em;
+    font-family: var(--main-title-font);
+    font-weight: normal;
+    padding: 80px 0px 70px 0px;
+    margin: 0px;
+}
+
+header > p {
+    font-size: 0.85em;
+    line-height: 1.5em;
+    max-width: 350px;
+    margin: auto;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+/* Configurações do main da página */
+
+
+/* configurando a section introduction */
+
+section#introduction h1 {
+    text-align: center;
+    margin: 50px 0px;
+    font-family: var(--title-font);
+    font-size: 3em;
+    background-color: var(--color-3);
+    color: aliceblue;
+    padding: 20px 0px;
+    border-radius: 15px;
+}
+
+main section#inner-introduction {
+    margin: 10px;
+    padding: 0px 40px;
+    margin: auto;
+    max-width: 800px;
+}
+
+section#introduction > p {
+    margin: 10px;
+    padding: 40px;
+    margin: auto;
+    max-width: 800px;
+}
+
+section#inner-introduction p {
+    text-align: justify;
+}
+
+.first-image {
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 50px;
+    margin: auto;
+}
+
+main section#types-examples {
+    background-color: var(--color-0);
+    margin: 0px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+main section#inner-types-example {
+    margin: 10px;
+    max-width: 800px;
+    padding: 30px;
+    margin: auto;
+}
+
+/* configurando a section types */
+
+main section#types {
+    margin: 10px;
+    padding: 0px 40px;
+    margin: auto;
+    max-width: 800px;
+}
+
+main section#example {
+    background-color: var(--color-0);
+    border-radius: 25px;
+    padding: 50px 50px 50px 10px;
+    color: white;
+}
+
+section#types h2 {
+    text-align: center;
+    font-family: var(--title-font);
+    font-size: 2.5em;
+    
+    background-color: var(--color-3);
+    color: aliceblue;
+    padding: 20px 0px;
+    border-radius: 15px;
+}
+
+
+
+
+/* Configurações do footer da página */
+
+footer {
+    margin: 0px;
+    margin-top: 40px;
+    padding: 0px;
+    background-color: var(--color-4);
+}
+
+footer > p {
+    line-height: normal;
+    font-size: 0.85em;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    font-style: italic;
+}
+
+footer a#my-link {
+    text-decoration: none;
+    color: white;
+}
+
+footer a#my-link:hover {
+    text-decoration: underline;
+    color: aqua;
+    
+}
